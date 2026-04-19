@@ -1,1 +1,18 @@
+{
+  "name": "macro-ai-proxy",
+  "version": "2.0.0",
+  "description": "CORS proxy + sync server for macro.ai tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
 
